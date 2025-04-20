@@ -101,7 +101,7 @@ async def send_to_nova_streaming(transcribed_text):
         agentId="R5UEJWGSP2",
         agentAliasId="S77DLQKDCC",
         sessionId=sessionId,
-        input={'text': transcribed_text},
+        inputText=transcribed_text,
         streamingConfigurations={
             'streamFinalResponse': True
         }
